@@ -105,9 +105,13 @@ a:hover {
   font-size: 1rem;
 }
 
-.articles-section {
-  padding: 7em 0;
+.blog-section {
+  padding: 2rem 0;
   position: relative;
+}
+
+.blog-heading {
+  font-size: 3rem;
 }
 
 #blog1-img {
