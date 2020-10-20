@@ -105,6 +105,132 @@ a:hover {
   font-size: 1rem;
 }
 
+.articles-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+#blog1-img {
+  background-image: url('../imgs/blog_1.jpg');
+}
+
+#blog2-img {
+  background-image: url('../imgs/blog_2.jpg');
+}
+
+#blog3-img {
+  background-image: url('../imgs/blog_3.jpg');
+}
+
+#blog4-img {
+  background-image: url('../imgs/blog_4.jpg');
+}
+
+#blog5-img {
+  background-image: url('../imgs/blog_5.jpg');
+}
+
+#blog6-img {
+  background-image: url('../imgs/blog_6.jpg');
+}
+
+.blog-entry {
+  overflow: hidden;
+}
+
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 400px;
+  border-radius: 4px;
+}
+
+.blog-entry .text {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blog-entry .text .topper {
+  margin-top: -61px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background: #ffd369;
+}
+
+.blog-entry .text .topper:after {
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #ffd369 transparent transparent transparent;
+}
+
+.blog-entry .one {
+  width: 70px;
+}
+
+.blog-entry .two {
+  width: calc(100% - 70px);
+}
+
+.blog-entry span.day {
+  font-size: 44px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 1;
+}
+
+.blog-entry span.yr,
+.blog-entry span.mos {
+  font-size: 13px;
+  line-height: 1.6;
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+}
+.blog-entry span.yr,
+.blog-entry span.mos {
+  font-size: 13px;
+  line-height: 1.6;
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-entry .text .heading {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.blog-entry .text .heading a {
+  color: #000000;
+}
+
+.blog-entry .text .btn-custom {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.blog-entry .text .btn-custom:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.blog-entry .text .btn-custom span {
+  color: #000000;
+}
+
 /**  
  ** Media Queries
 **/
