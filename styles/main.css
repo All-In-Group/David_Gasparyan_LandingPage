@@ -13,6 +13,24 @@ a:hover {
   text-decoration: none;
 }
 
+.navbar-brand {
+  font-size: 1rem;
+  transition: all 0.2 linear;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  line-height: 3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffb300;
+}
+
 .partners-item {
   -ms-flex: 1; /* IE 10 */
   flex: 1;
