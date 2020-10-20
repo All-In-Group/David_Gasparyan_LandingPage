@@ -72,16 +72,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.coupon-box .text-holder p .promo {
-  padding: 4px;
-  margin: 0 4px;
-  border: 2px solid #ff3300;
-  border-radius: 10px;
-  font-size: 1.3rem;
-  background-color: #dcdcdc;
-  box-shadow: 4px 4px #dcdcdc;
-}
-
 .coupon-box .text-holder .btn-primary {
   color: #ffffff;
   background: #ffb300;
