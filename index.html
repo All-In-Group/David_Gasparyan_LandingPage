@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All.in Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -17,7 +18,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <div class="mt-5 container">
+    <div class="container fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button
           class="navbar-toggler"
@@ -37,12 +38,10 @@
                 <img src="./imgs/logo.png" width="60" height="60" alt="All in" />
               </a>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+                <a class="nav-link" href="#aboutUs">About Us</a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#">Articles</a>
+                <a class="nav-link" href="#articles">Articles</a>
               </li>
               <li class="nav-item mx-4">
                 <a class="nav-link" href="#coupons">Coupons</a>
@@ -62,9 +61,60 @@
       </nav>
     </div>
     <main>
-      <section class="p-4" id="coupons">
+      <section id="aboutUs">
+        <div class="container container-aboutUs">
+          <div class="text-center">
+            <h2 class="blog-heading">About Us</h2>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-12 col-xl-6 spacing">
+              <div class="d-flex aboutTabs">
+                <a href="#panel1" class="tab-single">Lorem ipsum</a>  
+                <a href="#panel2" class="tab-single">Lorem ipsum</a>  
+                <a href="#panel3" class="tab-single">Lorem ipsum</a>  
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-6">
+              <div class="row">
+                <div class="mdl-tabs__panel panel-single is-active" id="panel1" style="color:blue">
+                  <div class="row">
+                    <div class="col-12 spacing">
+                      <h3 class="section-title">Lorem ipsum</h3>
+                      <hr class="left">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                    </div>
+                  </div>
+                </div>
+                <div class="mdl-tabs__panel panel-single" id="panel2" style="color:red">
+                  <div class="row">
+                    <div class="col-12 spacing">
+                      <h3 class="section-title">Lorem ipsum</h3>
+                      <hr class="left">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                    </div>
+                  </div>
+                </div>
+                <div class="mdl-tabs__panel panel-single" id="panel3" style="color:orange">
+                  <div class="row">
+                    <div class="col-12 spacing">
+                      <h3 class="section-title">Lorem ipsum</h3>
+                      <hr class="left">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur incidunt ad iste excepturi commodi totam odio, velit magnam? Maiores tempore, aperiam ullam ab ratione exercitationem molestias possimus doloribus quia.</p>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="articles"></section>
+      <section id="coupons" >
         <div class="container container-coupons">
-          <div class="m-5 text-center">
+          <div class="text-center">
             <h2 class="blog-heading">Coupons</h2>
           </div>
           <div class="row">
@@ -153,7 +203,7 @@
       </section>
       <section id="blog" class="blog-section bg-light">
         <div class="container">
-          <div class="m-5 text-center">
+          <div class="text-center">
             <h2 class="blog-heading">Our Blog</h2>
           </div>
           <div class="row d-flex">
@@ -334,9 +384,11 @@
           </div>
         </div>
       </section>
-      <section class="pt-5" id="partners">
+      <section id="partners">
         <div class="container text-center">
-          <h2 class="mt-2">Partner Companies</h2>
+          <div class="text-center">
+            <h2>Partner Companies</h2>
+          </div>
           <p class="mt-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
             delectus atque velit eaque sapiente ullam quidem veritatis nam
@@ -370,7 +422,7 @@
         </div>
       </section>
       <section id="contactUs" class="bg-light">
-        <div class="py-5 text-center">
+        <div class="text-center">
           <h2>Contact Us</h2>
         </div>
         <div class="container form-container">
@@ -449,5 +501,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
