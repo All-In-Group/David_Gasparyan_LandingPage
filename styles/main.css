@@ -244,6 +244,11 @@ a:hover {
   color: #000000;
 }
 
+.btn-primary {
+  background-color: #ffb300;
+  border-color: #ffb300;
+}
+
 /**  
  ** Media Queries
 **/
@@ -267,5 +272,9 @@ a:hover {
 @media (min-width: 1200px) {
   .partners-item {
     flex: 20%;
+  }
+
+  .form-container {
+    max-width: 40%;
   }
 }
